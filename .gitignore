@@ -1,6 +1,7 @@
 # Tooling / editor
 .claude/
 .vercel/
+.vercel
 
 # Python
 __pycache__/
