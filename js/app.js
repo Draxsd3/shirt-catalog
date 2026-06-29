@@ -240,9 +240,22 @@
     els.forEach((e) => io.observe(e));
   }
 
+  /* ---------- Tema claro/escuro ---------- */
+  function setupTheme() {
+    const btn = $("#theme-toggle");
+    if (!btn) return;
+    btn.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme") || "dark";
+      const next = current === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem("bender-theme", next);
+    });
+  }
+
   /* ---------- Init ---------- */
   document.addEventListener("DOMContentLoaded", () => {
     wireContacts();
+    setupTheme();
     buildSubnav();
     buildCatalog();
     buildProducts();
