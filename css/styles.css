@@ -91,7 +91,7 @@ body::before{
 [data-theme="light"] .site-header{--header-bg:rgba(244,246,249,.86)}
 .site-header .container{display:flex;align-items:center;gap:14px;width:100%}
 .brand{display:flex;align-items:center;gap:11px;margin-right:auto;min-width:0}
-.brand img{height:42px;width:auto;flex:none;filter:var(--logo-filter,invert(1))}
+.brand img{height:54px;width:auto;flex:none;filter:var(--logo-filter,invert(1))}
 [data-theme="light"] .brand img{--logo-filter:none}
 
 .header-actions{display:flex;align-items:center;gap:9px;flex:none}
