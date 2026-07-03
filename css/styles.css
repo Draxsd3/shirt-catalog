@@ -27,7 +27,7 @@
   --shadow:0 18px 40px -18px rgba(0,0,0,.85);
   --shadow-cyan:0 10px 34px -10px rgba(0,174,239,.55);
 
-  --header-h:64px;
+  --header-h:80px;
   --subnav-h:52px;
 
   --font:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
@@ -91,7 +91,7 @@ body::before{
 [data-theme="light"] .site-header{--header-bg:rgba(244,246,249,.86)}
 .site-header .container{display:flex;align-items:center;gap:14px;width:100%}
 .brand{display:flex;align-items:center;gap:11px;margin-right:auto;min-width:0}
-.brand img{height:54px;width:auto;flex:none;filter:var(--logo-filter,invert(1))}
+.brand img{height:72px;width:auto;flex:none;filter:var(--logo-filter,invert(1))}
 [data-theme="light"] .brand img{--logo-filter:none}
 
 .header-actions{display:flex;align-items:center;gap:9px;flex:none}
@@ -140,7 +140,7 @@ body::before{
   min-height:min(86vh,860px);
   display:flex;flex-direction:column;align-items:center;justify-content:flex-end;
   text-align:center;
-  padding:30px 18px 56px;
+  padding:30px 18px 80px;
   overflow:hidden;
 }
 .hero-bg{position:absolute;inset:0;z-index:-2}
