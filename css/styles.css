@@ -9,12 +9,11 @@
   --panel:#16181f;
   --panel-2:#1b1e27;
 
-  --gold:#c9a84c;
-  --gold-bright:#e0bf6a;
-  --gold-dim:rgba(201,168,76,.12);
-  --gold-glow:0 8px 32px -8px rgba(201,168,76,.45);
+  --gold:#1a7fd4;
+  --gold-bright:#3396e8;
+  --gold-dim:rgba(26,127,212,.12);
+  --gold-glow:0 8px 32px -8px rgba(26,127,212,.5);
 
-  /* keep cyan aliases for WA green only */
   --cyan:var(--gold);
   --cyan-bright:var(--gold-bright);
   --shadow-cyan:var(--gold-glow);
@@ -43,10 +42,10 @@
   --panel:#ffffff;
   --panel-2:#eaecf1;
 
-  --gold:#9a7a28;
-  --gold-bright:#b8922e;
-  --gold-dim:rgba(154,122,40,.1);
-  --gold-glow:0 8px 32px -8px rgba(154,122,40,.3);
+  --gold:#1565c0;
+  --gold-bright:#1e7ed8;
+  --gold-dim:rgba(21,101,192,.12);
+  --gold-glow:0 8px 32px -8px rgba(21,101,192,.35);
 
   --white:#111318;
   --text:#2a2e3a;
